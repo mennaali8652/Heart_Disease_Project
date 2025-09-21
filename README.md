@@ -5,31 +5,21 @@ It includes a full end-to-end workflow: data preprocessing, dimensionality reduc
 
 ---
 
-## 📂 Project Structure
-
-Heart_Disease_Project/ 
-│── data/ # Dataset(s) 
-│ ├── heart_disease.csv 
-│── notebooks/ # Step-by-step workflow 
-│ ├── 01_data_preprocessing.ipynb 
+<pre><code> 📁 Heart_Disease_Project/ ├── data/ # Dataset(s) 
+│ └── heart_disease.csv 
+├── notebooks/ # Step-by-step workflow │ ├── 01_data_preprocessing.ipynb 
 │ ├── 02_pca_analysis.ipynb 
 │ ├── 03_feature_selection.ipynb 
 │ ├── 04_supervised_learning.ipynb 
 │ ├── 05_unsupervised_learning.ipynb 
-│ ├── 06_hyperparameter_tuning.ipynb 
-│── models/ # Saved models 
+│ ├── 06_hyperparameter_tuning.ipynb ├── models/ # Saved models 
 │ ├── final_pipeline.pkl 
-│ ├── feature_names.json 
-│── ui/ # Streamlit app 
-│ ├── app.py 
-│── deployment/ # Deployment notes 
-│ ├── ngrok_setup.txt 
-│── results/ # Evaluation results 
-│ ├── evaluation_metrics.txt 
-│── README.md # Project documentation 
-│── requirements.txt # Dependencies 
-│── .gitignore # Ignored files
-
+├── ui/ # Streamlit app 
+│ └── app.py 
+├── results/ # Evaluation results 
+│ └── evaluation_metrics.txt 
+├── README.md # Project documentation ├── requirements.txt # Dependencies └── .gitignore # Ignored files 
+</code></pre>
 
 ---
 
@@ -37,7 +27,8 @@ Heart_Disease_Project/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/Heart_Disease_Project.git
+   git clone https://github.com/mennaali8652/Heart_Disease_Project.git
+
    cd Heart_Disease_Project
 
 2. **Install dependencies**
@@ -50,36 +41,29 @@ Heart_Disease_Project/
 
 ---
 📊 Results
-Final model: LogisticRegression (after hyperparameter tuning)
 
-Accuracy: ~0.78
+- **Final model**: LogisticRegression (after hyperparameter tuning)
 
-Macro F1: ~0.81
+- **Accuracy**: ~0.78
 
-Detailed metrics are available in results/evaluation_metrics.txt
+- **Macro F1**: ~0.81
+
+    Detailed metrics are available in results/evaluation_metrics.txt
 
 ---
 
 🧠 Features Used
 Final selected features for prediction:
 
-fbs (Fasting Blood Sugar)
-
-thal (Thalassemia)
-
-oldpeak (ST Depression)
-
-sex (0 = female, 1 = male)
-
-slope (Slope of ST Segment)
-
-ca (Number of Major Vessels)
-
-thalach (Max Heart Rate Achieved)
-
-restecg (Resting ECG Results)
-
-cp (Chest Pain Type)
+- **fbs**: Fasting Blood Sugar  
+- **thal**: Thalassemia  
+- **oldpeak**: ST Depression  
+- **sex**: 0 = female, 1 = male  
+- **slope**: Slope of ST Segment  
+- **ca**: Number of Major Vessels  
+- **thalach**: Max Heart Rate Achieved  
+- **restecg**: Resting ECG Results  
+- **cp**: Chest Pain Type
 
 ---
 
