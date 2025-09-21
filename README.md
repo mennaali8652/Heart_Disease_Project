@@ -73,6 +73,16 @@ Final selected features for prediction:
 
 ---
 
+### 🖼️ App Screenshots
+
+#### 🔹 Input Interface
+![App Input](assets/user_input.png)
+
+#### 🔹 Prediction Output
+![App Output](assets/predict.png)
+
+---
+
 ## 🙌 Acknowledgements
 Dataset: https://archive.ics.uci.edu/ml/datasets/heart+Disease
 
