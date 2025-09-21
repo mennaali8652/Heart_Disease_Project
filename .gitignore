@@ -22,3 +22,7 @@ results/*.txt
 # Environment secrets
 .env
 *.env
+
+# screenshots
+
+assets/*.png
