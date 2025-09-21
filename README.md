@@ -4,8 +4,9 @@ This project predicts **heart disease risk categories** using machine learning.
 It includes a full end-to-end workflow: data preprocessing, dimensionality reduction (PCA), feature selection, supervised & unsupervised learning, hyperparameter tuning, and deployment with a Streamlit web app.
 
 ---
+## 📁 Heart_Disease_Project/ ├── data/ # Dataset(s) 
 
-<pre><code> 📁 Heart_Disease_Project/ ├── data/ # Dataset(s) 
+<pre><code> 
 │ └── heart_disease.csv 
 ├── notebooks/ # Step-by-step workflow │ ├── 01_data_preprocessing.ipynb 
 │ ├── 02_pca_analysis.ipynb 
@@ -52,7 +53,7 @@ It includes a full end-to-end workflow: data preprocessing, dimensionality reduc
 
 ---
 
-🧠 Features Used
+## 🧠 Features Used
 Final selected features for prediction:
 
 - **fbs**: Fasting Blood Sugar  
@@ -67,7 +68,7 @@ Final selected features for prediction:
 
 ---
 
-🙌 Acknowledgements
+## 🙌 Acknowledgements
 Dataset: https://archive.ics.uci.edu/ml/datasets/heart+Disease
 
 Built with: Python, scikit-learn, Streamlit
