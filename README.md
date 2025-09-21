@@ -9,18 +9,22 @@ It includes a full end-to-end workflow: data preprocessing, dimensionality reduc
 ``` 
 ├── data/ # Dataset(s) 
 │ └── heart_disease.csv 
-├── notebooks/ # Step-by-step workflow │ ├── 01_data_preprocessing.ipynb 
+├── notebooks/ # Step-by-step workflow 
+│ ├── 01_data_preprocessing.ipynb 
 │ ├── 02_pca_analysis.ipynb 
 │ ├── 03_feature_selection.ipynb 
 │ ├── 04_supervised_learning.ipynb 
 │ ├── 05_unsupervised_learning.ipynb 
-│ ├── 06_hyperparameter_tuning.ipynb ├── models/ # Saved models 
+│ ├── 06_hyperparameter_tuning.ipynb 
+├── models/ # Saved models 
 │ ├── final_pipeline.pkl 
 ├── ui/ # Streamlit app 
 │ └── app.py 
 ├── results/ # Evaluation results 
 │ └── evaluation_metrics.txt 
-├── README.md # Project documentation ├── requirements.txt # Dependencies └── .gitignore # Ignored files 
+├── README.md # Project documentation 
+├── requirements.txt # Dependencies 
+└── .gitignore # Ignored files 
 ```
 
 ---
