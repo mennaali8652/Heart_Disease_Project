@@ -23,6 +23,4 @@ results/*.txt
 .env
 *.env
 
-# screenshots
 
-assets/*.png
