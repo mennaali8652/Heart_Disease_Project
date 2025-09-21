@@ -4,9 +4,10 @@ This project predicts **heart disease risk categories** using machine learning.
 It includes a full end-to-end workflow: data preprocessing, dimensionality reduction (PCA), feature selection, supervised & unsupervised learning, hyperparameter tuning, and deployment with a Streamlit web app.
 
 ---
-## 📁 Heart_Disease_Project/ ├── data/ # Dataset(s) 
+## 📁 Heart_Disease_Project 
 
-<pre><code> 
+``` 
+├── data/ # Dataset(s) 
 │ └── heart_disease.csv 
 ├── notebooks/ # Step-by-step workflow │ ├── 01_data_preprocessing.ipynb 
 │ ├── 02_pca_analysis.ipynb 
@@ -20,7 +21,7 @@ It includes a full end-to-end workflow: data preprocessing, dimensionality reduc
 ├── results/ # Evaluation results 
 │ └── evaluation_metrics.txt 
 ├── README.md # Project documentation ├── requirements.txt # Dependencies └── .gitignore # Ignored files 
-</code></pre>
+```
 
 ---
 
