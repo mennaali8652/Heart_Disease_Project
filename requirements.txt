@@ -20,3 +20,6 @@ pyngrok
 
 # Utilities
 scipy
+
+# Development / Testing dependencies
+pytest
