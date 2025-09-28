@@ -16,10 +16,12 @@ It includes a full end-to-end workflow: data preprocessing, dimensionality reduc
 │ ├── 04_supervised_learning.ipynb 
 │ ├── 05_unsupervised_learning.ipynb 
 │ ├── 06_hyperparameter_tuning.ipynb 
-├── models/ # Saved models 
+├── models/ 
 │ ├── final_pipeline.pkl 
-├── ui/ # Streamlit app 
+├── ui/  
 │ └── app.py 
+├── deployment/ 
+│ └── ngrok_setup.txt
 ├── results/ # Evaluation results 
 │ └── evaluation_metrics.txt 
 ├── README.md # Project documentation 
