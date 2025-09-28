@@ -1,0 +1,44 @@
+# ngrok_setup.txt
+
+## Purpose
+This file explains how to deploy the **Heart Disease Prediction Streamlit App** locally and make it publicly accessible using **Ngrok**.
+
+---
+
+## 1. Prerequisites
+- Python 3.8+ installed  
+- Streamlit installed (`pip install streamlit`)  
+- Ngrok installed ([https://ngrok.com/download](https://ngrok.com/download))  
+- Project dependencies installed from `requirements.txt`  
+
+---
+
+## 2. Run the Streamlit App Locally
+Navigate to the `ui/` folder and run:
+
+```bash
+cd ui
+streamlit run app.py
+
+---
+
+## 3. Start Ngrok Tunnel
+
+In a new terminal, run:
+```bash
+ngrok http 8501
+
+
+---
+
+## 4. Share the Public Link
+
+- Copy the HTTPS Ngrok URL.
+
+- Share it with others to allow live access to the app.
+
+## 5. Notes
+- Keep both terminals open (Streamlit + Ngrok) for the app to remain accessible.
+
+- Each time you restart Ngrok, a new public URL is generated (unless you use a paid Ngrok plan with reserved domains).
+
